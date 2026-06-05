@@ -13,7 +13,7 @@ Modelo de regresión lineal para predecir el uso futuro de CPU, RAM y Almacenami
 
 1. Abre [Google Colab](https://colab.research.google.com)
 2. Sube el notebook `Minimos_Cuadrados_Servidor.ipynb`
-3. Ejecuta todas las celdas en orden con ▶️
+3. Ejecuta todas las celdas en orden con 
 
 ## Cómo ejecutar en tu computadora
 
