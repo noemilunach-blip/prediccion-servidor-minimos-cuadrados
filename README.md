@@ -3,7 +3,7 @@
 Modelo de regresión lineal para predecir el uso futuro de CPU, RAM y Almacenamiento en un servidor, usando el método de Mínimos Cuadrados.
 
 ## Archivos
-
+-`Minimos_Cuadrados_Servidor.ipynb` — notebook completo con código, entrenamiento y resultados
 - `generate_dataset.py` — genera el dataset simulado de 24 meses
 - `least_squares.py` — implementación del método de mínimos cuadrados
 - `main.py` — ejecuta el análisis completo y genera la gráfica
@@ -11,32 +11,16 @@ Modelo de regresión lineal para predecir el uso futuro de CPU, RAM y Almacenami
 
 ## Cómo ejecutar en Google Colab
 
-1. Abrir [Google Colab](https://colab.research.google.com)
-2. Crea un nuevo cuaderno
-3. Ejecutar primero esta celda para instalar dependencias:
+1. Abre [Google Colab](https://colab.research.google.com)
+2. Sube el notebook `Minimos_Cuadrados_Servidor.ipynb`
+3. Ejecuta todas las celdas en orden con ▶️
 
-\`\`\`
-!pip install numpy pandas matplotlib -q
-\`\`\`
+## Cómo ejecutar en tu computadora
 
-4. Copiar el contenido de cada archivo en celdas en este orden y ejecuta :
-   - `generate_dataset.py`
-   - `least_squares.py`
-   - `main.py`
-
-## Cómo ejecutar
-
-1. Instala las dependencias:
-
-\`\`\`
+```bash
 pip install -r requirements.txt
-\`\`\`
-
-2. Ejecuta el programa:
-
-\`\`\`
 python main.py
-\`\`\`
+```
 
 ## Dependencias
 
